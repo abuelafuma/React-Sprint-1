@@ -1,0 +1,80 @@
+* {
+    margin: 10px;
+    padding: 10px; 
+}
+
+.general {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background: black;
+    display: flex;
+    flex-flow: column nowrap;
+}   
+
+.menu-nav {
+    background: #2d4059;
+    display: flex;  
+}
+
+.nav-lateral {
+    flex: 1;
+    background: #ea5455;
+}
+
+.nav-central {
+    flex: 4;
+    background: #ea5455;
+}
+
+.cap-pagina {
+    background-color: #f07b3f;
+}   
+
+.titol {
+    background-color: #ffd460;
+}
+
+.main {
+    background: black;
+    display: flex;
+}
+
+.section-esq {
+    background: #4e4e6a;
+    display: flex;
+    flex: 2;
+    flex-flow: row wrap;
+}   
+
+
+.article-blue {
+    background: #1f6cb0;
+    flex: 1 1 40%;
+}
+
+.article-lightblue {
+    background: #70a3c4;
+    flex: 1 1 100%;
+}
+
+.asidered {
+    background: #f73f52;
+    flex: 1;
+}
+
+.asides{
+    background: #ffea85;
+}
+
+.footer {
+    background: black;
+}
+
+.peudepagina {
+    background: #e6af2e;
+}
