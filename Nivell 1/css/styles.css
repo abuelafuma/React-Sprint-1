@@ -78,3 +78,10 @@
 .peudepagina {
     background: #e6af2e;
 }
+
+@media (max-width: 1024px){
+    .main {
+        background: yellow;
+        flex-flow: column nowrap;
+    }     
+}
