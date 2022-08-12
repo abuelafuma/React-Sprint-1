@@ -76,12 +76,41 @@
 }
 
 .peudepagina {
-    background: #e6af2e;
+    background: #ebbe58;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .main {
-        background: yellow;
-        flex-flow: column nowrap;
-    }     
+        background: #f8e42f;
+        flex-flow: column nowrap;    
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .menu-nav {
+        background: #2d4059;
+        flex-flow: column nowrap ;  
+    }
+
+    .section-esq {
+        background: rgb(27, 100, 122);
+    }
+
+    .article-blue {
+        background: rgb(101, 154, 184);
+    }
+
+    .article-lightblue {
+        background: rgb(171, 231, 171);
+    }
+
+    .asidered {
+        background-color: rgb(245, 116, 57);
+        flex: 1;
+    }
+
+    .asides{
+        background: rgb(231, 174, 100);
+    }   
 }
